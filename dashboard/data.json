@@ -1,0 +1,231 @@
+{
+  "kpis": {
+    "total_cost": 175.78,
+    "total_calls": 30000,
+    "avg_cost_per_call": 0.0059,
+    "failed_pct_of_cost": 3.3
+  },
+  "by_feature": [
+    {
+      "feature": "sales_call_transcription",
+      "total_cost": 47.5561,
+      "calls": 4316,
+      "avg_cost": 0.011
+    },
+    {
+      "feature": "code_review_assistant",
+      "total_cost": 33.7748,
+      "calls": 4405,
+      "avg_cost": 0.0077
+    },
+    {
+      "feature": "meeting_notes",
+      "total_cost": 32.2259,
+      "calls": 4300,
+      "avg_cost": 0.0075
+    },
+    {
+      "feature": "content_generator",
+      "total_cost": 27.4073,
+      "calls": 4193,
+      "avg_cost": 0.0065
+    },
+    {
+      "feature": "email_summarizer",
+      "total_cost": 13.3864,
+      "calls": 4227,
+      "avg_cost": 0.0032
+    },
+    {
+      "feature": "internal_search_qa",
+      "total_cost": 13.3488,
+      "calls": 4300,
+      "avg_cost": 0.0031
+    },
+    {
+      "feature": "chatbot_support",
+      "total_cost": 8.0775,
+      "calls": 4259,
+      "avg_cost": 0.0019
+    }
+  ],
+  "by_model": [
+    {
+      "model": "gpt-4o",
+      "total_cost": 89.6277,
+      "calls": 7509,
+      "avg_cost_per_call": 0.0119,
+      "pct_of_calls": 25.0,
+      "pct_of_cost": 51.0
+    },
+    {
+      "model": "claude-sonnet",
+      "total_cost": 68.0162,
+      "calls": 7514,
+      "avg_cost_per_call": 0.0091,
+      "pct_of_calls": 25.0,
+      "pct_of_cost": 38.7
+    },
+    {
+      "model": "claude-haiku",
+      "total_cost": 14.5203,
+      "calls": 5995,
+      "avg_cost_per_call": 0.0024,
+      "pct_of_calls": 20.0,
+      "pct_of_cost": 8.3
+    },
+    {
+      "model": "gpt-4o-mini",
+      "total_cost": 3.6126,
+      "calls": 8982,
+      "avg_cost_per_call": 0.0004,
+      "pct_of_calls": 29.9,
+      "pct_of_cost": 2.1
+    }
+  ],
+  "by_team": [
+    {
+      "team": "Engineering",
+      "total_cost": 33.9531,
+      "calls": 5790,
+      "avg_cost": 0.0059
+    },
+    {
+      "team": "Sales",
+      "total_cost": 32.9912,
+      "calls": 5634,
+      "avg_cost": 0.0059
+    },
+    {
+      "team": "Customer Support",
+      "total_cost": 31.1963,
+      "calls": 5378,
+      "avg_cost": 0.0058
+    },
+    {
+      "team": "Data Science",
+      "total_cost": 28.8669,
+      "calls": 4944,
+      "avg_cost": 0.0058
+    },
+    {
+      "team": "Marketing",
+      "total_cost": 25.2593,
+      "calls": 4266,
+      "avg_cost": 0.0059
+    },
+    {
+      "team": "Product",
+      "total_cost": 23.5098,
+      "calls": 3988,
+      "avg_cost": 0.0059
+    }
+  ],
+  "by_month": [
+    {
+      "month": "2026-02",
+      "total_cost": 26.89,
+      "calls": 4623
+    },
+    {
+      "month": "2026-03",
+      "total_cost": 30.85,
+      "calls": 5093
+    },
+    {
+      "month": "2026-04",
+      "total_cost": 28.32,
+      "calls": 4931
+    },
+    {
+      "month": "2026-05",
+      "total_cost": 29.55,
+      "calls": 5117
+    },
+    {
+      "month": "2026-06",
+      "total_cost": 29.66,
+      "calls": 5025
+    },
+    {
+      "month": "2026-07",
+      "total_cost": 29.48,
+      "calls": 5045
+    },
+    {
+      "month": "2026-08",
+      "total_cost": 1.03,
+      "calls": 166
+    }
+  ],
+  "by_status": [
+    {
+      "status": "error",
+      "total_cost": 4.0383,
+      "calls": 1283
+    },
+    {
+      "status": "success",
+      "total_cost": 170.0459,
+      "calls": 28151
+    },
+    {
+      "status": "timeout",
+      "total_cost": 1.6925,
+      "calls": 566
+    }
+  ],
+  "top_users": [
+    {
+      "user_id": "user_0088",
+      "cost_usd": 7.366
+    },
+    {
+      "user_id": "user_0120",
+      "cost_usd": 6.981
+    },
+    {
+      "user_id": "user_0069",
+      "cost_usd": 6.966
+    },
+    {
+      "user_id": "user_0028",
+      "cost_usd": 6.866
+    },
+    {
+      "user_id": "user_0016",
+      "cost_usd": 6.864
+    },
+    {
+      "user_id": "user_0045",
+      "cost_usd": 2.964
+    },
+    {
+      "user_id": "user_0100",
+      "cost_usd": 2.954
+    },
+    {
+      "user_id": "user_0076",
+      "cost_usd": 2.939
+    },
+    {
+      "user_id": "user_0024",
+      "cost_usd": 2.806
+    },
+    {
+      "user_id": "user_0110",
+      "cost_usd": 2.742
+    }
+  ],
+  "waste": {
+    "bloat_calls": 745,
+    "bloat_cost": 11.7,
+    "bloat_pct_calls": 2.5,
+    "bloat_pct_cost": 6.7,
+    "simple_feature_gpt4o_calls": 2125,
+    "simple_feature_gpt4o_current_cost": 10.64,
+    "simple_feature_gpt4o_hypothetical_cost": 5.15,
+    "simple_feature_gpt4o_savings": 5.49,
+    "failed_calls_cost": 5.73
+  }
+}
